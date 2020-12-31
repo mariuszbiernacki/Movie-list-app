@@ -6,7 +6,7 @@
 # Movie List App
 
 <br />
-**link: https://react-movielist-app.netlify.app**
+link: https://react-movielist-app.netlify.app
 <br />
 
 
