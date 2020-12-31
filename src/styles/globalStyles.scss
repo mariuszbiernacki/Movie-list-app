@@ -1,0 +1,60 @@
+@import "./reset";
+@import "./variables";
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.hero-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.movies {
+  list-style: none;
+  padding: 20px;
+  border-bottom: 1px solid map-get($colors, dark-lighter);
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie {
+  $movieMargin: 30px;
+  width: calc(50% - #{$movieMargin} * 2);
+  margin: $movieMargin;
+  &__h1,
+  &__h2 {
+    font-family: sans-serif;
+  }
+  &__h1 {
+    color: map-get($colors, dark);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid map-get($colors, dark-lighter);
+    margin-top: 50px;
+  }
+  &__h2 {
+    color: map-get($colors, dark-lighter);
+    margin-bottom: 15px;
+  }
+  &__img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  &__btn {
+    margin-bottom: 40px;
+    padding: 12px 20px;
+    border: 1px solid map-get($colors, dark);
+    background-color: map-get($colors, light);
+    text-transform: uppercase;
+  }
+  &__bg-photo {
+    height: 600px;
+  }
+}

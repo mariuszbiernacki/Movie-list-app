@@ -1,0 +1,14 @@
+Zadanie 6. (hooks i class)  
+Stwórz prostą aplikację korzystając z api -> The Movie Database Api -> https://developers.themoviedb.org/3/getting-started/introduction
+Żeby korzystać z api trzeba się zarejestrować w celu uzyskania klucza do api. 
+Aplikacja ma polegać na pobraniu 20 filmów z zakładki top_rated (najlepiej oceniane), przypisać je do stanu i wyświetleniu na stronie (image, title, rating, data wydania). Oczywiście trzeba zachować wszystkie dobre praktyki w sposobie dzielenia komponentów (każdy komponent powinien mieć swoje zadanie i osobny plik do styli css np. MoviesList odpowiada za wyświetlenie listy filmów i posiada MoviesList.css). 
+Oprócz pobrania filmów (należy użyć axiosa) i ich wyświetlenia aplikacja przy każdym filmie powinna miec przycisk "add to favorite, który dodaje konkretny film do listy ulubionych, która znajduję się na innej podstronie na ścieżce "/favorite". Utwórz routing w aplikacji za pomocą react-router-dom, stwórz ścieżki "/", "/top_rated_movies" , "/favorite_movies" które będą odpowiadały komponentom(podstronom):
+ a)Home - czyli strona główna na ścieżce "/" na której będzie tytuł aplikacji w postaci ostylowanego nagłówka <h1>Movie list app</h1>. 
+b) TopRatedMovies -> czyli podstrona na której będzie 20 najlepiej ocenianych filmów wyświetlonych w postaci listy.
+c)FavoriteMovies -> czyli podstrona na której będzie można zobaczyć tylko te filmy które zostały dodane do ulubionych.
+d) Oprócz tego powinna być możliwość wejścia w szczegóły jednego filmu za pomocą dynamicznej ścieżki np. "/top_rated_movies/<tutaj dynamiczna ścieżka np.nazwa filmu>" np. "/top_rated_movies/titanic". Wejście w poszczególny jeden film powinno być możliwe w momencie kliknięcia na zdjęcie/plakat filmu, a szczegóły powinny być wyświetlone w komponencie SingleMovie.js, podobnie jak robiliśmy z aplikacją z przepisami.
+Powinno być możliwe usuwanie filmów z listy ulubionych. 
+Cała aplikacja powinna być ostylowana, sposób dowolny css, sass, styled components. 
+Dodatkowe funkcjonalności:
+-Filmy mogą być wyświetlane od najlepiej ocenianego do najgorzej ocenianego.  
+-Nie można dodać tego samego filmu dwa razy do listy ulubionych jeżeli już się tam znajduje.
