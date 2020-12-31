@@ -3,16 +3,12 @@
 - React.js
 - Styled-components
 
-# Movie List App 💀⚰️
+# Movie List App
 
 <br />
+**link: https://react-movielist-app.netlify.app**
 <br />
-<br />
-**link: http://jacekcv.com/projects/hangman/**
-<br />
-**🌐 My website: https://react-movielist-app.netlify.app**
-<br />
-<br />
+
 
 
 
