@@ -1,3 +1,21 @@
+### 🔧 Technology Stack
+
+- React.js
+- Styled-components
+
+# Movie List App 💀⚰️
+
+<br />
+<br />
+<br />
+**link: http://jacekcv.com/projects/hangman/**
+<br />
+**🌐 My website: https://react-movielist-app.netlify.app**
+<br />
+<br />
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
