@@ -6,11 +6,8 @@
 # Movie List App
 
 <br />
-link: https://react-movielist-app.netlify.app
+link to demo version:  https://react-movielist-app.netlify.app
 <br />
-
-
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
