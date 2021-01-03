@@ -1,7 +1,7 @@
 ### 🔧 Technology Stack
 
 - React.js
-- Styled-components
+- SASS
 
 # Movie List App
 
