@@ -23,11 +23,10 @@ const Root = () => {
         `https://api.themoviedb.org/3/movie/top_rated?api_key=${process.env.REACT_APP_API_KEY}&language=en-US&page=${movieListPage}`
       )
       .then((response) => {
-        console.log(response);
         setMovies([...response.data.results]);
       })
       .catch((error) => {
-        console.log(error);
+        console.error(error);
       });
   };
 
